@@ -1,0 +1,261 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* FONT Poiret One: font-family: 'Poiret One', cursive;*/
+body{font-family: 'Raleway', sans-serif;}
+
+
+
+nav .brand-logo {font-family: 'Permanent Marker', cursive;}
+
+nav ul a,
+nav .brand-logo {
+  color: #8FD694;
+  padding: 0px 50px;
+}
+
+nav .nav-right {
+  padding: 0 20px;
+}
+
+
+media="screen, projection"
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+
+nav .top-cta {
+    margin-top: -80px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background-color: #8FD694;
+  }
+
+
+p {
+  line-height: 2rem;
+}
+
+
+.button-collapse {
+  color: #8FD694;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.center {
+  font-family: 'Raleway', sans-serif; 
+}
+
+.btn-unisciti {
+  width: 20em;
+
+}
+
+.btn-large {
+  width: 30em;
+}
+
+
+
+.section-intro {
+  height: 100%;
+  min-height: 480px;
+  width: 50%;
+  text-align: left;
+  padding-top: 9em;
+  font-weight: 
+}
+
+
+.section-registrazione {
+  height: 100%;
+  width: 100%;
+
+}
+
+.section-trainer {
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.section-chi {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.header {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 5%;
+    font-size: 4.3em;
+    width: 7em;
+
+}
+
+.paragrafo {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.ctitle {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 5em;
+}
+
+.ctit {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 2%;
+}
+
+.header-sub {margin-top: 2%;
+
+    }
+
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container 
+
+  .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+        .section{
+        background-color: #FFFFFF;
+        width: 100%;
+      }
+
+        .nav-wrapper {
+        position: relative;
+        padding: 0 10px;
+}
+        .container {
+          width: 100%;
+
+}
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+      .section{
+        background-color: #FFFFFF;
+      }
+
+      .nav-wrapper {
+        position: relative;
+        padding: 0 10px;
+
+
+}
+
+}
+
+/* MARGINE della SEZIONE di SERVIZIO */
+.col-servizio {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+
+}
+
+.icon-block {
+  padding: 0 15px;
+
+
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#Servizio p {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+.registrazione-icon {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+.registrazione-subtitle {
+font-size: 1.6em;
+margin-top: 5%;
+}
+
+.btn-registrazione {
+  width: 100%;
+}
+
+.trainer-icon {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+.trainer-subtitle {
+  font-size: 1.6em;
+  margin-top: 5%;
+  line-height: 2em;
+}
+
+.btn-trainer {
+  width: 100%;
+
+}
+
+
+.chi-icon {
+  font-size: 7em;
+  color: #FFFFFF;
+  margin-top: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+.chi {
+  text-align: left;
+}
+
+p.chi{
+  color: #66bb6a;
+}
+
+.social-icon {
+  padding: 0 15px;
+  font-size:2em;
+  color: #BBBBBB;
+}
+
+.social-icon:hover {
+  color: #8FD694;
+}
+
+.copyright {
+background-color: #BBBBBB;
+color: #8FD694;
+
+}
