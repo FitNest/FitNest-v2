@@ -15,14 +15,12 @@ nav .brand-logo {font-family: 'Permanent Marker', cursive;}
 
 nav ul a,
 nav .brand-logo {
-  color: #006600;
+  color: #8FD694;
   padding: 0px 50px;
 }
 
 nav .nav-right {
   padding: 0 20px;
-  font-weight: bolder;
-  color: #43a047;
 }
 
 
@@ -47,10 +45,8 @@ nav .top-cta {
 p {
   line-height: 2rem;
   text-align: justify;
-  color: #444444;
-
+  font-weight: bold;
 }
-
 
 
 .button-collapse {
@@ -58,7 +54,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 30em;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -69,10 +65,7 @@ p {
 }
 
 .btn-large {
-  width: 40em;
-  height: 4em;
-  font-size: 1em;
-  font-weight: bold;
+  width: 50em;
 }
 
 .email {
@@ -86,6 +79,7 @@ p {
   width: 50%;
   text-align: left;
   padding-top: 9em;
+  font-weight: 
 }
 
 
@@ -118,7 +112,7 @@ p {
 
 .paragrafo {
   font-family: 'Montserrat Alternates', sans-serif;
-  color: #43a047;
+  color: black;
 
 }
 
@@ -133,9 +127,8 @@ p {
 }
 
 .header-sub {margin-top: 2%;
-      width: 50em;
-      padding-left: 20px;
-}
+
+    }
 
 
 
@@ -149,9 +142,6 @@ p {
   #index-banner .section {
     top: 10%;
   }
-      .container{
-        width: 100%;
-      }
 
         .section{
         background-color: #FFFFFF;
@@ -164,22 +154,8 @@ p {
 }
         .container {
           width: 100%;
+
 }
-      .container{
-        width: 100%;
-      }
-      .header{
-        font-size: 2.5em;
-        width: 150%;
-      }
-
-      .btn-large{
-      text-align: left;
-      }
-      .header-sub{
-        width: 100%;
-      }
-
 }
 @media only screen and (max-width : 600px) {
   #index-banner .section {
@@ -192,22 +168,9 @@ p {
       .nav-wrapper {
         position: relative;
         padding: 0 10px;
+
+
 }
-
-      .container{
-        width: 100%;
-      }
-      .header{
-        font-size: 2.5em;
-        width: 150%;
-      }
-
-      .btn-large{
-      text-align: left;
-      }
-      .header-sub{
-        width: 100%;
-      }
 
 }
 
@@ -245,7 +208,6 @@ margin-top: 5%;
 
 .btn-registrazione {
   width: 100%;
-  font-weight: bold;
 }
 
 .trainer-icon {
@@ -282,7 +244,6 @@ footer.page-footer {
 
 p.chi{
   color: #66bb6a;
-  text-align: justify;
 }
 
 .social-icon {
